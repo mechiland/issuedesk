@@ -1,5 +1,24 @@
-/*-- Pure CSS (http://purecss.io/). -----------------------------------------*/
 
-@import "../../bower_components/pure/pure.css";
+@import "../../bower_components/bootstrap/dist/css/bootstrap.css";
 
 /*-- Application stylesheets. -----------------------------------------------*/
+
+.card {
+  width: 200px;
+  height: 80px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  float: left;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+#main {
+  
+}

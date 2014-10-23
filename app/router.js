@@ -27,9 +27,10 @@ define(function(require, exports, module) {
         require(["template!templates/card"], function(template) {
           _.each(issues, function(iss) {
             var issue = new Issue(iss);
+            console.log(issue);
             var contents = template(issue.attributes);
             $("#main").append(contents);
-          })
+          });
         });
       });
       // console.log("Welcome to your / route.");

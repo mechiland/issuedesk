@@ -1,11 +1,12 @@
 {
   "name": "backbone-boilerplate",
   "dependencies": {
-    "pure": "~0.5.0",
     "almond": "~0.2.9",
     "lodash": "~2.4.1",
     "lodash-template-loader": "~0.1.6",
     "backbone": "~1.1.2",
+    "backbone-nested-model": "~2.0.1",
+    "bootstrap": "~3.2.0",
     "jquery": "~2.1.1",
     "requirejs": "~2.1.14",
     "qunit": "~1.14.0",
